@@ -66,9 +66,10 @@ int main(int argc, char *argv[]) {
 	}
 
 	/* outputting */
-	printf("%-11s %#+8.3lf\n", "Fahrenheit:", fahrenheit);
-	printf("%-11s %#+8.3lf\n", "Celsius:",    celsius);
-	printf("%-11s %#+8.3lf\n", "Kelvin:",     kelvin);
+	printf("%-11s %# 8.3lf\n", "Fahrenheit:", fahrenheit);
+	printf("%-11s %# 8.3lf\n", "Celsius:",    celsius);
+	printf("%-11s %# 8.3lf\n", "Kelvin:",     kelvin);
+	putchar('\n');
 
 	return 0;
 }
