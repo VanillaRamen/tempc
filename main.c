@@ -9,14 +9,6 @@ enum unit {
 
 double src_value;
 
-// struct temperature {
-// 	enum unit unit;
-// 	double value;
-// } temp_src;
-
-
-char const * const errmsg = "Usage:";
-
 #define MAIN_ERRMSG() do { fprintf(stderr, "Usage: %s <temperature> <F|C|K>\n", argv[0]); } while(0)
 
 int main(int argc, char *argv[]) {
